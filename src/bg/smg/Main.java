@@ -23,6 +23,7 @@ public class Main {
                 case FISH: animal = new Fish(); break;
                 case HUMMING_BIRD: animal = new HummingBird(); break;
                 case ZEBRA: animal = new Zebra(); break;
+                case MONKEY: animal = new Monkey(); break;
                 default: animal = new Animal();
             }
             animal.setType(type);
